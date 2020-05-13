@@ -90,7 +90,7 @@ function getNeighborhood(zipcode) {
     else if (thiszip >= 13435 && thiszip <= 13439) {
         neighborhood = 'Wittenau';
         }
-    else if (thiszip >= 14109 && thiszip <= 65999) {
+    else if (thiszip === 14109) {
         neighborhood = 'Wannsee';
         }
     else if (thiszip >= 14163 && thiszip <= 14169) {
